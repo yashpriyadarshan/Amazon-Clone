@@ -1,0 +1,250 @@
+@import url('https://fonts.cdnfonts.com/css/amazon-ember');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    font-family: 'Amazon Ember', sans-serif;
+}
+
+body {
+    background-color: #f5f6f6;
+}
+
+nav {
+    height: 60px;
+    min-width: 100%;
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    /* justify-content: end; */
+}
+
+.logo {
+    margin-left: 10px;
+    height: 60px;
+
+}
+
+.location {
+    margin-left: 15px;
+    margin-top: 5px;
+    height: 20px;
+    filter: invert(100%);
+}
+
+#location {
+    text-align: left;
+    color: white;
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 13px;
+}
+
+.loclogo {
+    margin-bottom: 13px;
+}
+
+#search {
+    height: 40px;
+    width: 60%;
+    border-color: transparent;
+}
+
+.Submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    min-width: 44px;
+    background-color: rgb(243, 149, 61);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-color: transparent;
+}
+
+.option {
+    height: 44px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: rgb(226, 226, 226);
+    border-color: transparent;
+}
+
+.Submit img {
+    height: 22px;
+}
+
+.language {
+    margin-left: 25px;
+}
+
+.language img {
+    height: 16px;
+    width: 24px;
+}
+
+.language select {
+    font-size: 15px;
+    font-weight: 900;
+    background-color: #131921;
+    border-color: transparent;
+    color: white;
+    margin: 0px 15px 0px 5px;
+}
+
+.greeting {
+    color: white;
+    font-size: 13px;
+    margin-left: 4px;
+    font-weight: 100;
+}
+
+.account {
+    border-color: transparent;
+    background-color: #131921;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.login {
+    margin: 0px 10px;
+}
+
+.cart img {
+    position: absolute;
+    margin: 3px;
+    height: 40px;
+    filter: invert(100%);
+}
+
+.cart {
+    display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.cart div {
+    color: orange;
+    font-weight: 900;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 3px;
+}
+
+.cart p{
+    color: white;
+    font-weight: 900;
+    margin-top: 17px;
+}
+
+#subnav {
+    height: 35px;
+    background-color: #1e2f46;
+}
+
+#subnav span p {
+    border-color: transparent;
+    background-color: transparent;
+    margin-left: 65px;
+    margin-right: 10px;
+    color: white;
+    font-size: medium;
+}
+
+.container {
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0px 30px;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    margin: 4px;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    transform: translate(0, 7px)rotate(-45deg);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: translate(0, -7px)rotate(45deg);
+}
+
+#offers a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+#offers {
+    display: flex;
+}
+
+#offers div {
+    margin: 0px 20px;
+}
+
+.mySlides {
+    width: 100%;
+}
+
+.cardStart {
+    background-color: #f5f6f6;
+    height: 35px;
+    width: 100%;
+    margin-left: 14px;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 57%;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    position: relative;
+}
+
+.box {
+    width: 100%;
+    height: 1350px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    position: absolute;
+    top: 600px;
+    flex-direction: column;
+}
+
+.brow1, .brow2, .brow3{
+    width: 80%;
+    height: 400px;
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1, .box2, .box3 {
+    height: 400px;
+    width: 400px;
+    border: 2px red solid;
+    margin: 30px 30px;
+    border-radius: 20px;
+}
